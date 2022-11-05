@@ -22,6 +22,7 @@ OBJCOPY_BIN :=
 SUBDIRS := \
 Core/Src/dwt_delay \
 Core/Src \
+Core/Src/utils \
 Core/Startup \
 Drivers/STM32F1xx_HAL_Driver/Src \
 
