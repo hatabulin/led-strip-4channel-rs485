@@ -128,12 +128,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  HAL_Delay(100);
- 8000176:	2064      	movs	r0, #100	; 0x64
- 8000178:	f000 fa86 	bl	8000688 <HAL_Delay>
+	  HAL_Delay(1000);
+ 8000176:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+ 800017a:	f000 fa85 	bl	8000688 <HAL_Delay>
 	  logger("Hello world !\n\r");
- 800017c:	e7f8      	b.n	8000170 <main+0x14>
- 800017e:	bf00      	nop
+ 800017e:	e7f7      	b.n	8000170 <main+0x14>
  8000180:	08002034 	.word	0x08002034
 
 08000184 <SystemClock_Config>:
